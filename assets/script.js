@@ -591,7 +591,7 @@ startQuizBtnEl.addEventListener("click", function() {
           answer4BtnEl.style.display = 'none';
           answerCorrectWrong.style.display='none'; // When time is over correct or wrong will go away.
           //answerCorrectWrong.style.display=""; // Enables text content on correct and wrong answers
-          questionDisplay.textContent = "Game Over!. Try again by clicking on \"Click Start Quiz\"";
+          questionDisplay.textContent = "Game Over!. Try again by clicking on \"Click Start\"";
           startQuizBtnEl.style.display = "";
           clearInterval(timeInterval);
           
